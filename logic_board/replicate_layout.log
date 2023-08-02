@@ -1,0 +1,135 @@
+06-16 18:30:58 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 400:Plugin executed on: 'linux'
+06-16 18:30:58 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 401:Plugin executed with python version: '3.10.6 (main, Mar 10 2023, 10:55:28) [GCC 11.3.0]'
+06-16 18:30:58 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 402:KiCad build version: 7.0.5-7.0.5~ubuntu22.04.1
+06-16 18:30:58 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 403:Plugin version: 2.1.0
+06-16 18:30:58 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 404:Frame repr: <wx._core.Frame object at 0x7f4c6514d870>
+06-16 18:30:58 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 428:Preparing replicator with J15 as a reference
+06-16 18:30:58 com_github_MitjaNemec_ReplicateLayout.replicate_layout 116:getting a list of all footprints on board
+06-16 18:30:58 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 476:source anchor footprint is 'J15'
+Located on: ['meter_connection']
+With filenames: ['meter_conn.kicad_sch']
+With sheet_id:['meter_connection']
+06-16 18:30:58 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 483:Corresponding footprints are 
+[('J15', ['meter_connection']), ('J21', ['meter_connection6']), ('J20', ['meter_connection5']), ('J24', ['meter_connection9']), ('J18', ['meter_connection3']), ('J16', ['meter_connection1']), ('J22', ['meter_connection7']), ('J23', ['meter_connection8']), ('J19', ['meter_connection4']), ('J17', ['meter_connection2'])]
+06-16 18:30:58 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 495:Showing dialog
+06-16 18:30:58 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'meter_connection', file:'meter_conn.kicad_sch'
+06-16 18:30:58 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['meter_connection1'], ['meter_connection2'], ['meter_connection3'], ['meter_connection4'], ['meter_connection5'], ['meter_connection6'], ['meter_connection7'], ['meter_connection8'], ['meter_connection9']]
+06-16 18:30:58 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1411:Level selected: ['meter_connection']
+06-16 18:30:58 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1246:Filtering list of tracks
+06-16 18:30:58 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 501:Toolbar position: wx.Point(3140, 124)
+06-16 18:30:58 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 506:Dialog position: wx.Point(2778, 124)
+06-16 18:31:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'meter_connection', file:'meter_conn.kicad_sch'
+06-16 18:31:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['meter_connection1'], ['meter_connection2'], ['meter_connection3'], ['meter_connection4'], ['meter_connection5'], ['meter_connection6'], ['meter_connection7'], ['meter_connection8'], ['meter_connection9']]
+06-16 18:31:02 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 248:Replicating layout
+06-16 18:31:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 239:Starting replication of sheets: [['meter_connection1'], ['meter_connection2'], ['meter_connection3'], ['meter_connection4'], ['meter_connection5'], ['meter_connection6'], ['meter_connection7'], ['meter_connection8'], ['meter_connection9']]
+on level: ['meter_connection']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=True, locked footprints=False, group_only=False
+06-16 18:31:02 root 340:updating GUI message: 'Preparing for replication'
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 309:Getting the list of source footprints
+06-16 18:31:03 root 345:updating GUI with: 0
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 319:Getting the list of all the remaining footprints
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 326:Getting source tracks
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1246:Filtering list of tracks
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 330:Getting source zones
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 334:Getting source text items
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 338:Getting source drawing items
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 271:Removing tracks and zones, before footprint placement
+06-16 18:31:03 root 340:updating GUI message: 'Removing zones and tracks'
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:148825000, bottom:164590000, Left:-208775000, Right:-186665000
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:164965000, bottom:187075000, Left:-167775000, Right:-152010000
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:93325000, bottom:115435000, Left:-185350000, Right:-169585000
+06-16 18:31:03 root 345:updating GUI with: 33
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:101085000, bottom:116850000, Left:-208775000, Right:-186665000
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:164965000, bottom:187075000, Left:-183775000, Right:-168010000
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:93315000, bottom:115535000, Left:-169850000, Right:-154085000
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:116925000, bottom:132690000, Left:-208725000, Right:-186615000
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:132685000, bottom:148450000, Left:-208875000, Right:-186765000
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:164965000, bottom:187075000, Left:-151875000, Right:-136110000
+06-16 18:31:03 root 340:updating GUI message: 'Replicating footprints'
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 754:Replicating footprints
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['meter_connection1']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['meter_connection2']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['meter_connection3']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['meter_connection4']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['meter_connection5']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['meter_connection6']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['meter_connection7']
+06-16 18:31:03 root 345:updating GUI with: 73
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['meter_connection8']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['meter_connection9']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 279:Removing tracks and zones, after footprint placement
+06-16 18:31:03 root 340:updating GUI message: 'Removing zones and tracks'
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:148825000, bottom:164590000, Left:-208775000, Right:-186665000
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:164965000, bottom:187075000, Left:-167775000, Right:-152010000
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:93325000, bottom:115435000, Left:-185350000, Right:-169585000
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:101085000, bottom:116850000, Left:-208775000, Right:-186665000
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:164965000, bottom:187075000, Left:-183775000, Right:-168010000
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:93315000, bottom:115425000, Left:-169850000, Right:-154085000
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:116925000, bottom:132690000, Left:-208725000, Right:-186615000
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:132685000, bottom:148450000, Left:-208875000, Right:-186765000
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:164965000, bottom:187075000, Left:-151875000, Right:-136110000
+06-16 18:31:03 root 340:updating GUI message: 'Replicating tracks'
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 924:Replicating tracks
+06-16 18:31:03 root 345:updating GUI with: 0
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['meter_connection1']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['meter_connection1'] :[('LED0', 'LED1'), ('GND', 'GND'), ('Net-(D2-A)', 'Net-(D3-A)'), ('+BATT', '+BATT'), ('Net-(D12-K)', 'Net-(D13-K)'), ('ADC0', 'ADC1'), ('Net-(J15-In)', 'Net-(J16-In)')]
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['meter_connection2']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['meter_connection2'] :[('Net-(J15-In)', 'Net-(J17-In)'), ('GND', 'GND'), ('Net-(D2-A)', 'Net-(D4-A)'), ('ADC0', 'ADC2'), ('+BATT', '+BATT'), ('LED0', 'LED2'), ('Net-(D12-K)', 'Net-(D14-K)')]
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['meter_connection3']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['meter_connection3'] :[('LED0', 'LED3'), ('Net-(D12-K)', 'Net-(D15-K)'), ('Net-(J15-In)', 'Net-(J18-In)'), ('GND', 'GND'), ('ADC0', 'ADC3'), ('+BATT', '+BATT'), ('Net-(D2-A)', 'Net-(D5-A)')]
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['meter_connection4']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['meter_connection4'] :[('Net-(D2-A)', 'Net-(D6-A)'), ('GND', 'GND'), ('Net-(J15-In)', 'Net-(J19-In)'), ('LED0', 'LED4'), ('ADC0', 'ADC4'), ('+BATT', '+BATT'), ('Net-(D12-K)', 'Net-(D16-K)')]
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['meter_connection5']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['meter_connection5'] :[('GND', 'GND'), ('Net-(D12-K)', 'Net-(D17-K)'), ('ADC0', 'ADC5'), ('+BATT', '+BATT'), ('Net-(D2-A)', 'Net-(D7-A)'), ('LED0', 'LED5'), ('Net-(J15-In)', 'Net-(J10-Pin_2)')]
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['meter_connection6']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['meter_connection6'] :[('Net-(D2-A)', 'Net-(D8-A)'), ('GND', 'GND'), ('Net-(D12-K)', 'Net-(D18-K)'), ('ADC0', 'ADC6'), ('LED0', 'LED6'), ('+BATT', '+BATT'), ('Net-(J15-In)', 'Net-(J11-Pin_2)')]
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['meter_connection7']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['meter_connection7'] :[('GND', 'GND'), ('Net-(J15-In)', 'Net-(J12-Pin_2)'), ('Net-(D12-K)', 'Net-(D19-K)'), ('ADC0', 'ADC7'), ('+BATT', '+BATT'), ('Net-(D2-A)', 'Net-(D9-A)'), ('LED0', 'LED7')]
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['meter_connection8']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['meter_connection8'] :[('ADC0', 'ADC8'), ('GND', 'GND'), ('Net-(D2-A)', 'Net-(D10-A)'), ('Net-(D12-K)', 'Net-(D20-K)'), ('+BATT', '+BATT'), ('LED0', 'LED8'), ('Net-(J15-In)', 'Net-(J13-Pin_2)')]
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['meter_connection9']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['meter_connection9'] :[('Net-(J15-In)', 'Net-(J14-Pin_2)'), ('GND', 'GND'), ('Net-(D12-K)', 'Net-(D21-K)'), ('ADC0', 'ADC9'), ('+BATT', '+BATT'), ('LED0', 'LED9'), ('Net-(D2-A)', 'Net-(D11-A)')]
+06-16 18:31:03 root 340:updating GUI message: 'Replicating zones'
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 994:Replicating zones
+06-16 18:31:03 root 345:updating GUI with: 0
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['meter_connection1']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['meter_connection1'] :[('LED0', 'LED1'), ('GND', 'GND'), ('Net-(D2-A)', 'Net-(D3-A)'), ('+BATT', '+BATT'), ('Net-(D12-K)', 'Net-(D13-K)'), ('ADC0', 'ADC1'), ('Net-(J15-In)', 'Net-(J16-In)')]
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['meter_connection2']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['meter_connection2'] :[('Net-(J15-In)', 'Net-(J17-In)'), ('GND', 'GND'), ('Net-(D2-A)', 'Net-(D4-A)'), ('ADC0', 'ADC2'), ('+BATT', '+BATT'), ('LED0', 'LED2'), ('Net-(D12-K)', 'Net-(D14-K)')]
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['meter_connection3']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['meter_connection3'] :[('LED0', 'LED3'), ('Net-(D12-K)', 'Net-(D15-K)'), ('Net-(J15-In)', 'Net-(J18-In)'), ('GND', 'GND'), ('ADC0', 'ADC3'), ('+BATT', '+BATT'), ('Net-(D2-A)', 'Net-(D5-A)')]
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['meter_connection4']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['meter_connection4'] :[('Net-(D2-A)', 'Net-(D6-A)'), ('GND', 'GND'), ('Net-(J15-In)', 'Net-(J19-In)'), ('LED0', 'LED4'), ('ADC0', 'ADC4'), ('+BATT', '+BATT'), ('Net-(D12-K)', 'Net-(D16-K)')]
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['meter_connection5']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['meter_connection5'] :[('GND', 'GND'), ('Net-(D12-K)', 'Net-(D17-K)'), ('ADC0', 'ADC5'), ('+BATT', '+BATT'), ('Net-(D2-A)', 'Net-(D7-A)'), ('LED0', 'LED5'), ('Net-(J15-In)', 'Net-(J10-Pin_2)')]
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['meter_connection6']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['meter_connection6'] :[('Net-(D2-A)', 'Net-(D8-A)'), ('GND', 'GND'), ('Net-(D12-K)', 'Net-(D18-K)'), ('ADC0', 'ADC6'), ('LED0', 'LED6'), ('+BATT', '+BATT'), ('Net-(J15-In)', 'Net-(J11-Pin_2)')]
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['meter_connection7']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['meter_connection7'] :[('GND', 'GND'), ('Net-(J15-In)', 'Net-(J12-Pin_2)'), ('Net-(D12-K)', 'Net-(D19-K)'), ('ADC0', 'ADC7'), ('+BATT', '+BATT'), ('Net-(D2-A)', 'Net-(D9-A)'), ('LED0', 'LED7')]
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['meter_connection8']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['meter_connection8'] :[('ADC0', 'ADC8'), ('GND', 'GND'), ('Net-(D2-A)', 'Net-(D10-A)'), ('Net-(D12-K)', 'Net-(D20-K)'), ('+BATT', '+BATT'), ('LED0', 'LED8'), ('Net-(J15-In)', 'Net-(J13-Pin_2)')]
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['meter_connection9']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['meter_connection9'] :[('Net-(J15-In)', 'Net-(J14-Pin_2)'), ('GND', 'GND'), ('Net-(D12-K)', 'Net-(D21-K)'), ('ADC0', 'ADC9'), ('+BATT', '+BATT'), ('LED0', 'LED9'), ('Net-(D2-A)', 'Net-(D11-A)')]
+06-16 18:31:03 root 340:updating GUI message: 'Replicating text'
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1083:Replicating text
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['meter_connection1']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['meter_connection2']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['meter_connection3']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['meter_connection4']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['meter_connection5']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['meter_connection6']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['meter_connection7']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['meter_connection8']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['meter_connection9']
+06-16 18:31:03 root 340:updating GUI message: 'Replicating drawings'
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1134:Replicating drawings
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['meter_connection1']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['meter_connection2']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['meter_connection3']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['meter_connection4']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['meter_connection5']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['meter_connection6']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['meter_connection7']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['meter_connection8']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['meter_connection9']
+06-16 18:31:03 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 264:Replication complete
